@@ -1,0 +1,5 @@
+int16 request_id
+---
+int16 state_id
+int16 msg_id
+time rec_time
