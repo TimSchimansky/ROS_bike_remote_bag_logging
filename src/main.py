@@ -80,6 +80,7 @@ class Datalogger:
 					path_usb_drive = self.external_path
 				else:
 					path_usb_drive = self.internal_path
+				print("DEBUG: Chose " + path_usb_drive + " for export")
 
 				# Open sub process for bagrecord
 				command_list = ['rosbag', 'record', '--split', '--size=1024']
